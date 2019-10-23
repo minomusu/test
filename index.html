@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Web AR Sample</title>
+  </head>
+
+	<center>
+		<span style="font-size:xx-large">
+			<strong>
+				<font color="Black">
+					WEB AR SAMPLE
+				</font>
+			</strong>
+		</span>
+  	<body>
+    	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+    	<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    	<model-viewer poster="https://dcdvd.s3-ap-northeast-1.amazonaws.com/loading.gif" src="https://dcdvd.s3-ap-northeast-1.amazonaws.com/Curtain/04.gltf" ar ios-src="https://dcdvd.s3-ap-northeast-1.amazonaws.com/Curtain/Curtain.usdz" style="width:700px;height:700px;" auto-rotate camera-controls></model-viewer>
+  	</body>
+	<span style="font-size:medium">
+		<font color="Gray">
+			iPhon/Androidの方：右下のアイコンをタップして下さい
+		</font>
+	</span>
+	<br>
+	<br>
+		<font color="Gray">
+			PCでご覧の方：iPhon/AndroidでQRコードを読み込んでARを表示<br>
+		</font>
+	<img src="https://dcdvd.s3-ap-northeast-1.amazonaws.com/daiken/QR_DaikenAR.png" alt="スマートフォンで読み込み" title="スマートフォンで読み込み">
+	<br>
+	<style>
+	.wrapper {
+		max-width: 0 auto;
+		margin: 0 auto;
+		text-align: center;
+		background: #003399;
+	}
+	.txt {
+		display: inline-block;
+		text-align: left;
+	}
+	</style>
+	<div class="wrapper">
+		<p class="txt">
+			<font color="White">
+				【対応デバイス】<br>
+				■iOS<br>
+				ARKit対応端末（iPhone 6s/SE 以降、iPad Pro/第5世代 以降）<br>
+				iOS12以上<br>
+				■Android<br>
+				ARCore対応端末（Nexus 5X以降・Galaxy S7以降・Xperia XZ1以降など）<br>
+				Android8以上<br>
+				※上手く動作しない場合は標準のブラウザで試してみて下さい<br>
+				（iOSならSafari、AndroidならChrome）
+			</font>
+		</p>
+	</div>
+	
+	<span style="font-size:x-small;">
+		<font color="Gray">
+			©Daishinsha CG team
+		</font>
+	</span>
+	</center>
+</html>
